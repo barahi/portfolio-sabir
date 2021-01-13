@@ -41,8 +41,9 @@ padding: 0;
 }
 .about{
   position: absolute;
-  background:#e07a5f;
-  color: #3D405B;
+  background: #0D1117;
+
+  color: #faf9f9;
   height: 100%;
   width: 100%;
 }
@@ -68,29 +69,9 @@ padding: 20px;
 }
 
 .aboutComponent img{
+  border: 5px whitesmoke solid;
   border-radius:50%;
   max-width: 20%;
-  animation: border 10s ease infinite;
-}
-
-@keyframes border {
-
-  0%{
-    border: 5px #1d3557 solid;
-  }
-  25%{
-        border: 5px white solid;
-  }
-  50%{
-        border: 5px #e63946 solid;
-  }
-  75%{
-    border: 5px #355070 solid;
-  }
-  100%{
-    border: 5px #1d3557 solid;
-
-  }
 }
 
 
