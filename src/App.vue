@@ -1,12 +1,36 @@
 <template>
+
   <div id="nav">
+    
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+
+<transition name="pageTrans" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+
   <router-view/>
+
+</transition>
+
+  
 </template>
 
+
+
+
+<script>
+
+
+export default {
+
+
+}
+</script>
 <style>
+@import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
+
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,7 +40,10 @@
 }
 
 #nav {
+  width: 100%;
+  position: fixed;
   padding: 30px;
+  z-index: 1;
 }
 
 #nav a {
@@ -25,6 +52,10 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #fcca46;
+
 }
+
+
+
 </style>

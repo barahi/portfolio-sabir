@@ -1,18 +1,86 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home page">
+<!-- Add icon library -->
+
+<div class="component">
+    
+    <Test 
+    title="Hi!! I am Sabir Barahi"
+    info = "And I am a Programmer"
+    />
+
+</div>
+
+<div class="myLinks">
+
+
+
+  <a href="https://www.github.com/sabi1125">
+<img alt="Vue logo" src="../assets/github.png">
+  </a>
+  <a href="mailto:sabir_barahi4@hotmail.com">
+<img alt="Vue logo" src="../assets/email.png">
+</a>
+<a href="https://www.facebook.com/sabir.barahi.5">
+<img alt="Vue logo" src="../assets/facebook.png">
+</a>
+
+</div>
+
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Test from "../components/Test";
+
+
 
 export default {
+  
   name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  
+  components:{
+    Test
+    }
+    }
 </script>
+
+
+
+
+
+
+
+
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
+.home{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.myLinks{
+  position: absolute;
+  bottom: 10vh;
+  left: 20px;
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+}
+.myLinks img{
+  margin: 3px;
+  height: 40px;
+  width: 40px;
+}
+
+.component{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
