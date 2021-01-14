@@ -4,13 +4,24 @@
 
 
       <img src="../assets/pp.jpg" alt="">
-    <Test 
-    title="Sabir Barahi" 
-    info = "I am currently studying in Japan as a Higher Diploma student in Computer Programming. I am originally from Nepal.Ever since I was a kid I was really fond of computers
-    I loved playing games.I love playing guitar and singing a lot, I love Programming and sometimes spend long hours doing so and forget to do other things. 
-    "
-    
-    />
+    <Test title="Sabir Barahi" >
+      <template v-slot:info>
+        <p>I am a student currently stydying Computer Programming at a school called 東京デザインテクノロジーセンター専門学校 in Japan.I have been living and studying here for 3 years now.I love to programme and code,
+          love to do projects and constantly learn new things.
+        </p>
+      </template>
+
+
+      <template v-slot:info2>
+        <p>
+          I was born in a country called Nepal the country of Mount everest.My family has a Technical background and I was always around innovative people all my life.I am naturally curious and love trying out new things I love music and love playing guitar and sing.
+          I also grew up building the <a href="https://en.wikipedia.org/wiki/Rato_Machindranath_Jatra" style="color:white">Chariot of Machindranath.</a>  
+        </p>
+      </template>
+
+
+
+    </Test>
 </div>
   </div>
 </template>
@@ -42,11 +53,15 @@ padding: 0;
 .about{
   position: absolute;
   background: #0D1117;
-
   color: #faf9f9;
   height: 100%;
   width: 100%;
 }
+
+.about a{
+  color:white;
+}
+
 .aboutComponent{
   display: flex;
   flex-direction: column;
@@ -57,24 +72,21 @@ padding: 0;
 
 .aboutComponent h1{
 padding: 20px;
-  font-size: 1.7em;
+  font-size: 2em;
 
   
 }
-.aboutComponent p{
-  width: 50%;
-  margin: 0 auto;
-  padding:20px;
-  font-size: 1.2em;
-}
-
 .aboutComponent img{
   border: 5px whitesmoke solid;
   border-radius:50%;
-  max-width: 20%;
+  width: 15%;
 }
-
-
+@media(max-width:900px){
+  .aboutComponent img{
+    visibility: hidden;
+  }
+  
+}
 
 
 

@@ -12,6 +12,21 @@
 </div>
 
 
+<div class="bio">
+<div class="bio1">
+    <slot name="info"></slot>
+</div>
+
+
+<div class="bio2">
+    <slot name="info2"></slot>
+</div>
+
+</div>
+
+
+
+
 </div>
 
 
@@ -44,8 +59,70 @@ padding: 0;
     font-style: italic;
     letter-spacing: 0.2em;
 }
-
 .info p{
-    font-size: 2em;
+    font-size:2.3em;
 }
+
+
+
+.bio{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.bio .bio1{
+    width: 100%;
+}
+.bio .bio1 p{
+    
+    margin: 20px auto;
+}
+
+.bio .bio2{
+    width: 100%;
+
+}
+
+.bio .bio2 p{
+    margin: 100px auto;
+}
+
+
+@media(max-width:900px){
+    .title h1{
+        font-size: 2em;
+    }
+    .info p{
+        font-size: 1em;
+    }
+    .bio{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+            width: 90%;
+
+    }
+    
+    .bio .bio1{
+    padding: 0;
+    }
+
+    .bio .bio2{
+        padding: 0;
+    }
+    .bio .bio1 p{
+        font-size: 0.8em;
+        width: 100%;
+        border: none;
+    }
+    .bio .bio2 p{
+        font-size: 0.8em;
+        width: 100%;
+    }
+}
+
+
+
 </style>
