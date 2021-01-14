@@ -2,7 +2,7 @@
     <div class="projects page">
         <div class="projectComponent">
         <div class="sns">
-            <a href="http://secure-shore-42537.herokuapp.com/login">
+            <a href="http://secure-shore-42537.herokuapp.com/login" target="_blank">
             <Test 
             title="sns"
             info="A basic sns website.A work in progress"
@@ -10,7 +10,7 @@
              </a>
         </div>
         <div class="login">
-            <a href="https://login-system1125.herokuapp.com/">
+            <a href="https://login-system1125.herokuapp.com/" target="_blank">
             <Test
              title="login"
               info="Login system made with PHP"
@@ -19,7 +19,7 @@
             
         </div>
         <div class="expend">
-            <a href="https://github.com/sabi1125/expenditure-tracker">
+            <a href="https://github.com/sabi1125/expenditure-tracker" target="_blank">
             <Test
              title="expend" 
             info="Expenditure tracker made in Python"
