@@ -52,7 +52,7 @@ padding: 0;
 }
 .about{
   position: absolute;
-  background: #0D1117;
+  background: #293241;
   color: #faf9f9;
   height: 100%;
   width: 100%;
@@ -68,12 +68,12 @@ padding: 0;
   justify-content: center;
   align-items: center;
   height: 100%;
+  animation: bounce 1s ease;
 }
 
 .aboutComponent h1{
 padding: 20px;
   font-size: 2em;
-
   
 }
 .aboutComponent img{
@@ -88,6 +88,19 @@ padding: 20px;
   
 }
 
-
+@keyframes bounce {
+  0%{
+    transform: translateY(-100px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0);
+    
+  }
+}
 
 </style>
+
+

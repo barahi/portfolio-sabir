@@ -14,8 +14,8 @@
 <div class="myLinks">
 
 
+  <a href="https://www.github.com/sabi1125" >
 
-  <a href="https://www.github.com/sabi1125">
 <img alt="Vue logo" src="../assets/github.png">
   </a>
   <a href="mailto:sabir_barahi4@hotmail.com">
@@ -74,8 +74,11 @@ export default {
   margin: 3px;
   height: 40px;
   width: 40px;
+  transition: 0.5s ease;
 }
-
+.myLinks img:hover{
+  transform: scale(1.5);
+}
 .component{
   height: 100%;
   display: flex;
@@ -84,3 +87,4 @@ export default {
 }
 
 </style>
+

@@ -50,11 +50,11 @@ export default {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: black;
 }
 
 #nav a.router-link-exact-active {
-  color: #fcca46;
+  color: #38B2B8;
 
 }
 
