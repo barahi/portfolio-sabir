@@ -79,7 +79,7 @@ padding: 20px;
 
 .aboutComponent p{
 
-  font-size: 1.4em;
+  font-size: 1em;
   
 }
 .aboutComponent img{
