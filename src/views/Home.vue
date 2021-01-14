@@ -85,6 +85,24 @@ export default {
   justify-content: center;
   align-items: center;
 }
+.component h1{
+  width: 100%;
+}
+
+
+@media(max-width:900px){
+  .component{
+    width: 100%;
+  }
+  .component h1{
+    width: 100%;
+    font-size: 1.7em;
+  }
+  .component p{
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+}
 
 </style>
 

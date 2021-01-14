@@ -44,12 +44,14 @@ export default {
 #nav {
   width: 100%;
   position: fixed;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   z-index: 1;
 }
 
 #nav a {
   font-weight: bold;
+  font-size: 1.4em;
   color: black;
 }
 
@@ -57,7 +59,14 @@ export default {
   color: #38B2B8;
 
 }
+@media(max-width:900px){
+  
+#nav a {
 
+  font-size: 1em;
+}
+
+}
 
 
 </style>

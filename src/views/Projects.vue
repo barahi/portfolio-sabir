@@ -62,6 +62,11 @@ export default {
 }
 .projects a{
     color: #2c3e50;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+.projects a:hover{
+    color:white;
 }
 .projects p{
     font-weight: lighter;
@@ -80,7 +85,7 @@ export default {
 .sns{
     right: 300px;
     position: relative;
-    animation: 0.5s slide ease;
+    animation: 1s slide ease;
 }
 .login{
     position: relative;
