@@ -9,7 +9,7 @@
 
 <div class="info">
     <p>{{ info }}</p>
-</div>
+</div>asdf
 
 
 </div>
