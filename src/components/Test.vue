@@ -116,13 +116,14 @@ padding: 0;
         font-size: 0.8em;
         width: 100%;
         border: none;
+        margin-bottom: 180px;
     }
     .bio .bio2 p{
         font-size: 0.8em;
         width: 100%;
     }
 
-
+    
 
 }
 

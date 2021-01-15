@@ -5,16 +5,16 @@
 
       <img src="../assets/pp.jpg" alt="">
     <Test title="Sabir Barahi" >
+
       <template v-slot:info>
-        <p>I'm a student currently stydying Computer Programming at 東京デザインテクノロジーセンター専門学校 in Japan. I've been living and studying here for 3 years now. I love to code,
-          do projects and constantly learn new things.
+        <p>I'm a student currently stydying Computer Programming at 東京デザインテクノロジーセンター専門学校 in Japan. I have been studying and living in Japan for three years. I love to code,
+          do web development projects and constantly learn new things.
         </p>
       </template>
 
-
       <template v-slot:info2>
         <p>
-          I was born in Nepal the country of Mount Everest. My family has a Technical background and I was always around innovative people all my life. I'm naturally curious and love trying out new things. I love music and love playing guitar and singing.
+          I was born in Nepal, the country of Mount Everest. My family has a Technical background and I have always been around innovative people. I'm naturally curious and love trying out new things. I love music, playing guitar and singing.
           I grew up building the <a href="https://en.wikipedia.org/wiki/Rato_Machindranath_Jatra" style="color:white">Chariot of Machindranath.</a>  
         </p>
       </template>
@@ -89,9 +89,9 @@ padding: 20px;
 }
 @media(max-width:900px){
   .aboutComponent img{
-    visibility: hidden;
+    position: absolute;
+    width: 50%;
   }
-  
 .aboutComponent p{
 
   font-size: 2em;
