@@ -7,7 +7,7 @@
     <Test title="Sabir Barahi" >
 
       <template v-slot:info>
-        <p>I'm a student currently stydying Computer Programming at 東京デザインテクノロジーセンター専門学校 in Japan. I have been studying and living in Japan for three years. I love to code,
+        <p>I'm a student currently studying Computer Programming at 東京デザインテクノロジーセンター専門学校 in Japan. I have been studying and living in Japan for three years. I love to code,
           do web development projects and constantly learn new things.
         </p>
       </template>
