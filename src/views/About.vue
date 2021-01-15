@@ -72,7 +72,8 @@ padding: 0;
 }
 
 .aboutComponent h1{
-padding: 20px;
+
+  padding: 20px;
   font-size: 2em;
   
 }
@@ -97,7 +98,9 @@ padding: 20px;
   font-size: 2em;
   
 }
-  
+.aboutComponent h1{
+  visibility: hidden;
+}
 }
 
 @keyframes bounce {
