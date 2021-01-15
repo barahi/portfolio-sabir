@@ -5,8 +5,8 @@
 <div class="component">
     
     <Test 
-    title="Hi! I'am Sabir Barahi"
-    info = "And I am a Programmer"
+    title="Hi! I'm Sabir Barahi"
+    info = "And I'm a Programmer"
     />
 
 </div>
