@@ -1,3 +1,3 @@
 # portfolio
 
-https://sabirbarahi.herokuapp.com/
+https://sabir.barahi.space/
