@@ -1,19 +1,15 @@
 import Header from '../sections/Header';
-import landingImg from '../assets/langing.png';
 import douzo from '../assets/douzo.png';
 import reshubImg from '../assets/reshub.jpeg';
 import Card from '../components/card/Card';
 import { experiencePoints, schoolPoints, reshub } from '../constants/bulletPoints';
 import {links} from '../constants/links';
+import Landing from '../sections/Landing';
 const Home = () => {
   return (
     <>
       <Header />
-    <div className="landing">
-      <h1>HI! I AM SABIR BARAHI</h1>
-      <p>AN EAGER AND ENERGETIC SOFTWARE ENGINEER</p>
-      <img src={ landingImg } alt="landingImg" />
-    </div>
+      <Landing />
     
     <div className="about" id='about'>
       <h2>About</h2>
