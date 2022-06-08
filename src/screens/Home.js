@@ -1,8 +1,9 @@
 import Header from '../sections/Header';
+import landingImg from '../assets/landing.svg';
 import douzo from '../assets/douzo.png';
 import reshubImg from '../assets/reshub.jpeg';
 import Card from '../components/card/Card';
-import { experiencePoints, schoolPoints, reshub } from '../constants/bulletPoints';
+import { experiencePoints, schoolPoints, reshub, sns, spaceInvasion, lookbook } from '../constants/bulletPoints';
 import {links} from '../constants/links';
 import Landing from '../sections/Landing';
 import About from '../sections/About';
@@ -36,6 +37,21 @@ const Home = () => {
         img={ reshubImg }
         link={ links.reshub }
         points={ reshub }
+      />
+      <Card
+        cardName="Basic-SnS"
+        link={ links.sns }
+        points={ sns }
+      />
+      <Card
+        cardName="Space Invasion"
+        link={ links.spaceInvasion }
+        points={ spaceInvasion }
+      />
+      <Card
+        cardName="Lookbook"
+        link={ links.Lookbook }
+        points={ lookbook }
       />
     </div>
 

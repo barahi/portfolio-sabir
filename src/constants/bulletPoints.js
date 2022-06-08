@@ -22,3 +22,25 @@ export const reshub = [
   'Dicussed and made architectural Disscussions',
   'Learned and Implemented DDD(Domain Driven Design)'
 ]
+
+export const sns = [
+  'Learned my first php framework Laravel.',
+  'Learned about template engined.',
+  'This was my first Full Stack project.',
+  'Understood and developed basic SNS logic.',
+  'Understood the extents of developing a project alone'
+]
+
+export const spaceInvasion = [
+  'Learned the complexity of developing a game.',
+  'Used pygame to make the game.',
+  'Understood basick game development knowledge.',
+  'Figured out game physics.',
+]
+
+export const lookbook = [
+  'Took a leading role in the project.',
+  'Implemented MicroService architecture and Micro-frontends.',
+  'Studied up on DDD(Domain Driven Design) in detail.',
+  'Realized the usefullness of a MicroService architecture and its level of difficulty to implement.',
+]
