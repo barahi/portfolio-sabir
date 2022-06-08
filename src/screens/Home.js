@@ -1,6 +1,7 @@
-import gitcat from '../assets/gitCat.png';
 import landingImg from "../assets/langing.png";
 import Card from '../components/card/Card';
+import Header from '../sections/Header';
+
 const Home = () => {
 
   const experiencePoints = [
@@ -13,16 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <header>
-        <img src={ gitcat } alt="gitcat" />
-        <ul>
-          <li><a href="#landing">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </header>
+      <Header />
     <div className="landing">
       <h1>HI! I AM SABIR BARAHI</h1>
       <p>AN EAGER AND ENERGETIC SOFTWARE ENGINEER</p>
