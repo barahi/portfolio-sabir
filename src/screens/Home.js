@@ -1,17 +1,11 @@
-import landingImg from "../assets/langing.png";
-import Card from '../components/card/Card';
 import Header from '../sections/Header';
-
+import landingImg from '../assets/langing.png';
+import douzo from '../assets/douzo.png';
+import reshubImg from '../assets/reshub.jpeg';
+import Card from '../components/card/Card';
+import { experiencePoints, schoolPoints, reshub } from '../constants/bulletPoints';
+import {links} from '../constants/links';
 const Home = () => {
-
-  const experiencePoints = [
-    'Build extensible and reusable UI Components in React for responsive web applications.',
-    'Leveraged React Native to extend React UI Components support for mobile.',
-    'Build key features of an e-commerce marketplace application.',
-    'Wrote tests to increase the test coverage of the backend platform',
-    'Used different APIs such Material UI, Chakra UI and Stripe to build products faster'
-  ];
-
   return (
     <>
       <Header />
@@ -32,14 +26,26 @@ const Home = () => {
     <div className="experience" id="experience">
       <h2>Experience</h2>
       <Card 
-      cardName="株式会社DOUZO"
-      link="https://corp.douzo.me/"
-      points = { experiencePoints }
+        cardName="株式会社DOUZO"
+        img= { douzo }
+        link= { links.douzo }
+        points = { experiencePoints }
+      />
+      <Card
+        cardName="東京デザインテクノロジーセンタ専門学校"
+        link={ links.school }
+        points= { schoolPoints }
       />
     </div>
 
     <div className="projects" id="projects">
       <h2>Projects</h2>
+      <Card
+        cardName="Reshub"
+        img={ reshubImg }
+        link={ links.reshub }
+        points={ reshub }
+      />
     </div>
 
     <div className="skills" id="skills">
