@@ -29,6 +29,10 @@ header ul li a {
   padding-top: 4px;
 }
 
+.color-mode-icon:hover {
+  cursor: pointer;
+}
+
 header .github-icon {
   height: 42px;
 }
