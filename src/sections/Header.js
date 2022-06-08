@@ -23,14 +23,14 @@ const Header = () => {
   })
 
   return <header>
-    <img src={ gitcat } alt="gitcat" />
+    <img src={ gitcat } className="github-icon" alt="gitcat" />
     <ul>
       <li><a href="#landing">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><img src={currentMode ? sunIcon : moonIcon} alt="switch theme" onClick={() => {setCurrentMode(!currentMode)}}/></li>
+      <li><img src={currentMode ? sunIcon : moonIcon} className="color-mode-icon" alt="switch theme" onClick={() => {setCurrentMode(!currentMode)}}/></li>
     </ul>
   </header>
 }
