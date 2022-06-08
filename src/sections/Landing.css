@@ -25,6 +25,10 @@
     flex-direction: column-reverse;
   }
 
+  .landing-image {
+    padding-left: 0px;
+  }
+
   .intro {
     text-align: center;
   }

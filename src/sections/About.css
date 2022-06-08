@@ -1,0 +1,35 @@
+.about {
+  min-height: 100vh;
+}
+
+.about-content {
+  display: flex;
+  min-height: calc(100vh - 76px);
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  font-size: 36px;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .headshot {
+    margin-right: 0px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}
