@@ -3,7 +3,7 @@
 
 :root {
   --light-mode-background-color: #F7F3F5;
-  --light-mode-font-color: #000000;
+  --light-mode-font-color: rgba(0,0,0,0.5);
   --light-mode-card-background-color: #CEE3C8;
   --dark-mode-background-color: #0F0F27;
   --dark-mode-font-color: #FFFFFF;

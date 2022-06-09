@@ -1,0 +1,20 @@
+.back-bar {
+  margin-left:10px;
+  width: 500px;
+  height: 20px;
+  background: #DBC7BE;
+  border-radius: 10px;
+  z-index:-1;
+}
+.upper-bar {
+  color: white;
+  height: 20px;
+  border-radius: 10px;
+  background: #8DA1B9;
+  display: flex;
+  z-index:1;
+  justify-content: center;
+  align-items: center;
+  animation: bar 2s;
+}
+

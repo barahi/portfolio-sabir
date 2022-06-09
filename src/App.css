@@ -4,3 +4,6 @@
 @import url(./sections/Experience/Experience.css);
 @import url(./sections/Projects/project.css);
 @import url(./components/card/card.css);
+@import url(./sections/Skills/skills.css);
+@import url(./components/progressBar/bar.css);
+@import url(./sections/Contact/contact.css);

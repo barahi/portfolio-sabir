@@ -9,7 +9,6 @@ const Card = (props) => {
             <div key={ item.id } className="card">
               <div className="cardTitle">
             <h2>{ item.name }</h2>
-            { item.img ? <img src={ item.img } className="cardImg" alt="logo" /> : ''}
             </div>
             <p><a href={ item.link }>{ item.link }</a></p>
             {

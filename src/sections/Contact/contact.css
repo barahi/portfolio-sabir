@@ -1,0 +1,50 @@
+.contact {
+  height: 100vh;
+}
+
+input {
+  height: 30px;
+}
+
+label {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 300px;
+  resize: none;
+}
+
+.contactCard {
+  width: 40%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: center;
+}
+
+.cardName {
+  text-align: center;
+}
+
+.contactButton {
+  background: white;
+  margin-top: 20px;
+  border: 1px solid black;
+  font-size: 1.2em;
+  height: 35px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 40px;
+  height: 70px;
+}
+
+.linkIcon { 
+  max-width: 40px;
+  margin-right: 20px;
+}
+
