@@ -1,4 +1,4 @@
-import displayImage from '../assets/me.jpg';
+import displayImage from '../../assets/me.jpg';
 
 const About = () => {
   return (
@@ -8,12 +8,12 @@ const About = () => {
       <div className="about-content">
         <img src={displayImage} alt="me" className="headshot" />
 
-        <p className="about-text">
+        <div className="about-text">
           <p>Ever since learning HTML in middle school, I've been fascinated and 
             and excited to persue a career in Software Engineering. I enjoy building
             Full Stack applications that help other people and learning new technologies.
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );

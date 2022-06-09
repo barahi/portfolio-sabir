@@ -1,7 +1,8 @@
 import {useEffect, useState} from 'react';
-import gitcat from '../assets/gitCat.png';
-import sunIcon from '../assets/sunIcon.png';
-import moonIcon from '../assets/moonIcon.png';
+import gitcat from '../../assets/gitCat.png';
+import lightCat from '../../assets/lightCat.png';
+import sunIcon from '../../assets/sunIcon.png';
+import moonIcon from '../../assets/moonIcon.png';
 
 const Header = () => {
   // currentMode when true is lightmode
@@ -24,7 +25,7 @@ const Header = () => {
 
   return (
     <header>
-      <img src={ gitcat } className="github-icon" alt="gitcat" />
+      <img src={ currentMode ? lightCat : gitcat } className="github-icon" alt="gitcat" />
       <ul>
         <li><a href="#landing">Home</a></li>
         <li><a href="#about">About</a></li>

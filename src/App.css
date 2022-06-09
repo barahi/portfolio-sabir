@@ -1,3 +1,6 @@
-@import url(./sections/Header.css);
-@import url(./sections/Landing.css);
-@import url(./sections/About.css);
+@import url(./sections/Header/Header.css);
+@import url(./sections/Landing/Landing.css);
+@import url(./sections/About/About.css);
+@import url(./sections/Experience/Experience.css);
+@import url(./sections/Projects/project.css);
+@import url(./components/card/card.css);

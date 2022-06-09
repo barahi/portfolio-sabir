@@ -56,3 +56,9 @@ code {
   width: 80%;
   margin: auto;
 }
+
+.link-color {
+  color: var(--font-color);
+}
+
+
