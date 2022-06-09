@@ -1,5 +1,4 @@
 import Header from '../sections/Header';
-import landingImg from '../assets/landing.svg';
 import douzo from '../assets/douzo.png';
 import reshubImg from '../assets/reshub.jpeg';
 import Card from '../components/card/Card';
