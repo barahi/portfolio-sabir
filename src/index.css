@@ -10,6 +10,9 @@
   --dark-mode-card-background-color: #2A2046;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,7 +20,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
   color: var(--font-color);
   background-color: var(--background-color);
   transition-duration: 300ms;

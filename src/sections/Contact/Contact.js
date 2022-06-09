@@ -2,7 +2,7 @@ import greycat from '../../assets/gitCat.png';
 import linkedin from '../../assets/linkedin.png';
 const Contact = () => {
   return(
-    <div className="contact section">
+    <div className="contact section" id="contact">
       <h2 className="megrim section-title">Contact</h2>
 
       <div className="contactCard">

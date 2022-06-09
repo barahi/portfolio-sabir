@@ -48,3 +48,8 @@ textarea {
   margin-right: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .contactCard {
+    width: 80%;
+  }
+}
