@@ -16,6 +16,7 @@ const Contact = () => {
       <button type='submit' className="megrim contactButton">Send</button>
       </div>
       <div className="links">
+        <h2 className='megrim'>My Links</h2>
         <img src = { greycat } className="linkIcon" alt="link"  />
         <img src = { linkedin } className="linkIcon" alt="link" />
       </div>
