@@ -15,6 +15,6 @@
   z-index:1;
   justify-content: center;
   align-items: center;
-  animation: bar 2s;
+  transition: ease-in-out 2s;
 }
 

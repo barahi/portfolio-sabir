@@ -20,13 +20,36 @@
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
   margin: 100px auto;
   border-radius: 15px;
-  background: #CBB3BF;
+  background: var(--card-background-color);
 }
 
 .carousel-status {
   display: none;
 }
 
+.control-arrow.control-next {
+  border-radius: 0 15px 15px 0;
+}
+
+.control-arrow.control-prev {
+  border-radius: 15px 0 0 15px;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid var(--font-color) !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid var(--font-color) !important;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    margin: 0 5px;
+    display: inline-block;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    content: '';
+}
 
 @media only screen and (max-width: 1024px) {
   .carousel-root {

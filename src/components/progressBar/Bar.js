@@ -3,7 +3,7 @@ const Bar = (props) => {
       <div className="progress-bar">
         { props.name }
         <div className="back-bar">
-          <div className="upper-bar" style={{ width: props.status }}>
+          <div className="upper-bar" style={{ width: props.inView ? props.status : 0 }}>
             { props.status }
           </div>
         </div>

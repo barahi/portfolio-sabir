@@ -5,6 +5,7 @@ import Experience from '../sections/Experience/Experience';
 import Project from '../sections/Projects/Project';
 import Skills from '../sections/Skills/Skills';
 import Contact from '../sections/Contact/Contact';
+
 const Home = () => {
   return (
     <>
