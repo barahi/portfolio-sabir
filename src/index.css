@@ -63,4 +63,11 @@ code {
   color: var(--font-color);
 }
 
+@media only screen and (max-width: 600px) {
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
 

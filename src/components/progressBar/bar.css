@@ -18,3 +18,9 @@
   transition: ease-in-out 2s;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .back-bar{
+    width: 330px;
+  }
+}

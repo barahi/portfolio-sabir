@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header>
-      <img src={ currentMode ? lightCat : gitcat } className="github-icon" alt="gitcat" />
+      <a href="https://github.com/sabi1125"><img src={ currentMode ? lightCat : gitcat } className="github-icon" alt="gitcat" /></a>
       <ul>
         <li><a href="#landing">Home</a></li>
         <li><a href="#about">About</a></li>

@@ -53,3 +53,13 @@ textarea {
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    width: 100%;
+  }
+  .links {
+    margin-top: 9vh;
+    padding-bottom: 9vh;
+  }
+}

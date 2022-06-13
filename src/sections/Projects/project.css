@@ -3,3 +3,9 @@
   margin-top: 30vh;
   margin-bottom: 30vh;
 }
+
+@media only screen and (max-width: 600) {
+  .projects {
+    height: 50vh;
+  }
+}

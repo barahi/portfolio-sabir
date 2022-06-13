@@ -36,3 +36,10 @@ header ul li a {
 header .github-icon {
   height: 42px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+}

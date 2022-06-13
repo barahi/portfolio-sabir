@@ -17,8 +17,8 @@ const Contact = () => {
       </div>
       <div className="links">
         <h2 className='megrim'>My Links</h2>
-        <img src = { greycat } className="linkIcon" alt="link"  />
-        <img src = { linkedin } className="linkIcon" alt="link" />
+        <a href="https://github.com/sabi1125"><img src = { greycat } className="linkIcon" alt="link"  /></a>
+        <a href="https://www.linkedin.com/feed/"><img src = { linkedin } className="linkIcon" alt="link" /></a>
       </div>
     </div>
   )
