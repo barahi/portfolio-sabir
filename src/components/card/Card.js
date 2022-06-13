@@ -1,5 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 const Card = (props) => {
   return (
     <div className="cards">
@@ -10,7 +11,7 @@ const Card = (props) => {
               <div className="cardTitle">
             <h2>{ item.name }</h2>
             </div>
-            <p className="link"><a href={ item.link }>Click here for link</a></p>
+            <p className="link"><a href={ item.link }>リンクはこちら</a></p>
             {
               item.points.pts.map((pts, id=item.points.id) => (
                 <ul key={id} className="points">

@@ -8,10 +8,6 @@ const Header = () => {
   // currentMode when true is lightmode
   // when false is darkMode
   const [currentMode, setCurrentMode] = useState(false);
-  
-  useEffect(() => {
-    document.body.classList.add('light-mode');
-  }, []);
 
   useEffect(() => {
     if (currentMode) {

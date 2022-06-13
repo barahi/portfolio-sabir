@@ -10,7 +10,9 @@
 }
 
 .about-text {
-  font-size: 36px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  line-height: 40px;
 }
 
 .headshot {
@@ -36,7 +38,7 @@
 
 @media only screen and (max-width: 600px) {
   .about-text {
-    font-size: 24px;
+    font-size: 16px;
   }
   .about {
     width: 90%;

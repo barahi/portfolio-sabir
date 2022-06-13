@@ -1,6 +1,7 @@
 .card {
   text-align: start;
   padding: 50px;
+  letter-spacing: 5px;
 }
 .cardTitle {
   display: flex;
@@ -9,6 +10,7 @@
 .points {
   margin-top: 20px;
   line-height: 3vh;
+  list-style-type:disc;
 }
 .carousel-root {
   width: 900px;
@@ -63,7 +65,7 @@
   }
   .carousel * {
     box-sizing: unset;
-    wideh: 100%;
+    width: 100%;
   }
   .card {
     padding: 20px;
