@@ -11,7 +11,7 @@ const Card = (props) => {
               <div className="cardTitle">
             <h2>{ item.name }</h2>
             </div>
-            <p className="link"><a href={ item.link }>リンクはこちら</a></p>
+            <p className="link"><a href={ item.link }>Click Here for link</a></p>
             {
               item.points.pts.map((pts, id=item.points.id) => (
                 <ul key={id} className="points">

@@ -1,5 +1,5 @@
 import displayImage from '../../assets/me.jpg';
-import { japAbout } from '../../constants/cardItems';
+import { japAbout, about } from '../../constants/cardItems';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="about-text">
           <p>
-            { japAbout }
+            { about }
           </p>
         </div>
       </div>
